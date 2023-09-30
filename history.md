@@ -1,10 +1,3 @@
----
-Crafted by [Genie](https://marketplace.visualstudio.com/items?itemName=genieai.chatgpt-vscode)
-
----
-
-## You
-
 (myenv) (gptengv3) neh@Neh-hm-ubu:~/Documents/gptengv3/gpt-engineer/scripts$ gpt-engineer projects/my-new-projectv3
 Traceback (most recent call last):
 
