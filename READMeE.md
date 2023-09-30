@@ -173,8 +173,6 @@ This project is licensed under the MIT License.
 
 ```
 
-## Genie
-
 # AI-Powered Legal Assistant App
 
 ## Overview
