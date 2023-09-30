@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Legal Assistant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .hero-section {
+            background-color: #2C3E50;
+            padding: 100px 0;
+            text-align: center;
+            color: #ECF0F1;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .chatbox {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 300px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: none;
+            transition: transform 0.3s ease;
+        }
+
+        .chat-header {
+            background-color: #2980B9;
+            color: #fff;
+            padding: 10px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            cursor: pointer;
+        }
+
+        .chat-content {
+            padding: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .chat-input {
+            padding: 10px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero-section">
+        <h1>Revolutionize Your Legal Consultations</h1>
+        <p>Experience the future of legal assistance. Our AI-powered assistant streamlines initial consultations, saving you time and enhancing client experience.</p>
+        <button onclick="toggleChatbox()" class="btn btn-light">Chat with our AI Assistant</button>
+    </div>
+
+    <div class="chatbox" id="chatbox">
+        <div class="chat-header" onclick="toggleChatbox()">
+            AI Legal Assistant
+        </div>
+        <div class="chat-content" id="chat-content">
+            <!-- Messages will be displayed here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" class="form-control" placeholder="Type your message...">
+            <button onclick="sendMessage()" class="btn btn-primary mt-2">Send</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function toggleChatbox() {
+            const chatbox = document.getElementById('chatbox');
+            if (chatbox.style.display === 'none' || chatbox.style.display === '') {
+                chatbox.style.display = 'block';
+                chatbox.style.transform = 'scale(1.05)';
+                setTimeout(() => {
+                    chatbox.style.transform = 'scale(1)';
+                }, 100);
+            } else {
+                chatbox.style.display = 'none';
+            }
+        }
+
+        function sendMessage() {
+            const userInput = document.getElementById('user-input').value;
+            const chatContent = document.getElementById('chat-content');
+            chatContent.innerHTML += `<div>User: ${userInput}</div>`;
+            // You can integrate the AI response here
+            // For now, we'll just echo the user's message
+            chatContent.innerHTML += `<div>AI: ${userInput}</div>`;
+            document.getElementById('user-input').value = '';
+        }
+    </script>
+</body>
+
+</html>

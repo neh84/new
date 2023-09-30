@@ -1,0 +1,109 @@
+/home/neh/Documents/gptengv3/gpt-engineer/projects/my-new-projectv3/workspace/backend
+├── ai
+│   ├── ai.py
+│   ├── gpt3.py
+│   └── __init__.py
+├── ai_assistant.py
+├── ai_model.py
+├── ai.py
+├── all_output.txt
+├── app.js
+├── App.js
+├── app.py
+├── attorney
+│   ├── attorney_database.py
+│   ├── attorney.py
+│   ├── attorney_referral.py
+│   ├── attorney_refferal.py
+│   ├── __init__.py
+│   └── __pycache__
+│       └── __init__.cpython-311.pyc
+├── attorney_database.py
+├── attorney.py
+├── attorney_referral.py
+├── chatbot.py
+├── client.py
+├── config.py
+├── data_privacy.py
+├── gpt3.py
+├── issue.py
+├── legal_assistant
+│   ├── __init__.py
+│   ├── legal_assistant.py
+│   ├── legal_brief.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-311.pyc
+│   ├── questionaire.py
+│   └── questionnaire.py
+├── legal_assistant.py
+├── legal_brief.py
+├── main.py
+├── models.py
+├── __pycache__
+│   ├── app.cpython-311.pyc
+│   └── config.cpython-311.pyc
+├── questionnaire.py
+├── requirements.txt
+├── routes.py
+├── run.sh
+├── services.py
+├── test_ai_assistant.py
+├── test_app.py
+├── test_client.py
+├── test_issue.py
+├── utils
+│   ├── data_privacy.py
+│   ├── __init__.py
+│   ├── models.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   └── routes.cpython-311.pyc
+│   └── routes.py
+└── utils.py
+
+
+/home/neh/Documents/gptengv3/gpt-engineer/projects/my-new-projectv3/workspace/frontend
+├── dist
+│   ├── index.html
+│   └── styles.css
+├── gulpfile.js
+├── package.json
+├── package-lock.json
+├── public
+│   └── index.html
+└── src
+    ├── app.js
+    ├── components
+    │   └── LegalAssistantApp.js
+    ├── index.js
+    └── styles.scss
+
+
+/home/neh/Documents/gptengv3/gpt-engineer/projects/my-new-projectv3/workspace/app
+├── __init__.py
+├── main.py
+├── models.py
+├── __pycache__
+│   └── __init__.cpython-311.pyc
+├── services.py
+├── templates
+│   ├── base.html
+│   ├── case_details.html
+│   ├── index.html
+│   └── issue_analysis.html
+└── views.py
+
+
+/home/neh/Documents/gptengv3/gpt-engineer/projects/my-new-projectv3/workspace/src
+├── App.css
+├── App.js
+├── index.js
+├── LegalIssue.css
+└── LegalIssue.js
+
+
+/home/neh/Documents/gptengv3/gpt-engineer/projects/my-new-projectv3/workspace/static
+├── css
+│   └── main.css
+└── js
+    └── main.js

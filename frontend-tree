@@ -1,0 +1,32 @@
+/home/neh/Documents/gptengv3/gpt-engineer/projects/my-new-projectv3/workspace/frontend
+├── dist
+│   ├── index.html
+│   └── styles.css
+├── gulpfile.js
+├── package.json
+├── package-lock.json
+├── public
+│   └── index.html
+└── src
+    ├── app.js
+    ├── components
+    │   └── LegalAssistantApp.js
+    ├── index.js
+    └── styles.scss
+
+
+/home/neh/Documents/gptengv3/gpt-engineer/projects/my-new-projectv3/workspace/app
+├── __init__.py
+├── main.py
+├── models.py
+├── __pycache__
+│   └── __init__.cpython-311.pyc
+├── services.py
+├── templates
+│   ├── base.html
+│   ├── case_details.html
+│   ├── index.html
+│   └── issue_analysis.html
+└── views.py
+
+
